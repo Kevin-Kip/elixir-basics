@@ -8,7 +8,7 @@ defmodule Practice do
     4. Uranus
     """)
 
-    answer = String.first(IO.getn(""))
+    answer = String.first(IO.getn("Pick One >"))
 
     answer = case answer do
               "1" -> :Mars
