@@ -1,11 +1,12 @@
 defmodule Practice do
-  def doStuff do
+  def tryAtoms do
     IO.puts("""
     Which Planet are you on?
     1. Mars
     2. Neptune
     3. Earth
     4. Uranus
+    5. Pluto
     """)
 
     answer = String.first(IO.getn("Pick One >"))
@@ -15,6 +16,7 @@ defmodule Practice do
               "2" -> :Neptune
               "3" -> :Earth
               "4" -> :Uranus
+              "5" -> :Pluto
             end
 
     IO.puts("You belong to us for choosing #{answer}")
