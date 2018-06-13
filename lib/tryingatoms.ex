@@ -1,5 +1,6 @@
-defmodule Practice do
+defmodule TryingAtoms do
   def tryAtoms do
+#    Examples of using atoms
     IO.puts("""
     Which Planet are you on?
     1. Mars
