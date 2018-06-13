@@ -1,17 +1,12 @@
-# Practice
+## Elixir
 
-**TODO: Add description**
+The perfect one
 
-## Installation
+## Running
 
-  1. Add practice to your list of dependencies in mix.exs:
+Install elixir the run:
+```bash
 
-        def deps do
-          [{:practice, "~> 0.0.1"}]
-        end
+iex -S mix
 
-  2. Ensure practice is started before your application:
-
-        def application do
-          [applications: [:practice]]
-        end
+```
