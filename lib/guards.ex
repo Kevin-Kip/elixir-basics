@@ -1,4 +1,4 @@
-defmodule Flow do
+defmodule Guards do
   def showText(num) when num < 10 do
     IO.puts("#{num} is less than 10 ")
   end
