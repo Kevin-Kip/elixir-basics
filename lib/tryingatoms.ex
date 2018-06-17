@@ -12,6 +12,7 @@ defmodule TryingAtoms do
 
     answer = String.first(IO.getn("Pick One >"))
 
+#   Switch statement
     answer = case answer do
               "1" -> :Mars
               "2" -> :Neptune
